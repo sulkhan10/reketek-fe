@@ -1,16 +1,20 @@
+
+"use client"
 import Head from "next/head";
 import Link from "next/link";
+import dynamic from "next/dynamic";
+
+const DynamicNavbar = dynamic(() => import("../../components/Navbar"), {
+  ssr: false,
+});
 export default function Contact() {
   return (
-    <div>
-      <Head>
-        <title>Contact</title>
-      </Head>
-      <h1>Contact</h1>
-      <p>This is the Contact page</p>
-      <p>
-        <Link href="/">Go home</Link>
-      </p>
-    </div>
+     <main className=" h-[100vh] bg-red-100  p-12 flex flex-col ">
+         <DynamicNavbar />
+
+      <div>
+        About
+      </div>
+    </main>
   );
 }

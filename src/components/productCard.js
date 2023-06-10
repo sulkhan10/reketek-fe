@@ -3,7 +3,7 @@ import Image from "next/image";
 import Link from "next/link";
 
 const ProductCard = ({ productName }) => {
-  const phoneNumber = "6285858999264";
+  const phoneNumber = process.env.WHATSAPP_NUMBER;
   const encodedProductName = encodeURIComponent(productName);
 
   return (
