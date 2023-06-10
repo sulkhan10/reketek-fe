@@ -10,8 +10,8 @@ const Navbar = () => {
 
   return (
     <div
-      className={`bg-gray-800 flex h-12 fixed top-2 left-2 right-2 justify-between px-12 items-center rounded-xl ${
-        isMenuOpen ? "rounded-t-xl " : "rounded-t-xl"
+      className={`bg-gray-800 flex h-12 fixed top-2 left-2 right-2 justify-between px-12 items-center  z-50 ${
+        isMenuOpen ? "rounded-t-xl " : "rounded-xl"
       }`}
     >
       <div>HOME</div>
@@ -42,14 +42,17 @@ const Navbar = () => {
           </svg>
         </button>
         {isMenuOpen && (
-          <div className="fixed top-12 left-2 right-2 bottom-2 bg-gray-800 rounded-b-xl">
-            <div className="flex flex-col items-center justify-center h-full">
-              <Link href="/">Home</Link>
-              <Link href="/about">About</Link>
-              <Link href="/service">Service</Link>
-              <div className="px-2 rounded-xl border-zinc-50 border-2">
-          <Link href="/contact">Contact</Link>
-        </div>            </div>
+          <div className="fixed top-12 left-2 right-2 bottom-2 rounded-b-xl overflow-hidden bg-cover bg-[url('https://png.pngtree.com/thumb_back/fh260/background/20190221/ourmid/pngtree-japanese-poster-japan-tourism-japanese-zephyr-image_16665.jpg')]">
+            <div className="bg-gray-900 bg-opacity-50 h-full">
+              <div className="flex flex-col items-center justify-center h-full gap-[2vh]">
+                <Link href="/">Home</Link>
+                <Link href="/about">About</Link>
+                <Link href="/service">Service</Link>
+                <div className="px-2 rounded-xl border-zinc-50 border-2">
+                  <Link href="/contact">Contact</Link>
+                </div>
+              </div>
+            </div>
           </div>
         )}
       </div>

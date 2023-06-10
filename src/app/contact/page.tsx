@@ -3,13 +3,12 @@
 import Head from "next/head";
 import Link from "next/link";
 import dynamic from "next/dynamic";
-
-const DynamicNavbar = dynamic(() => import("../../components/Navbar"), {
+const DynamicNavbar = dynamic(() => import("../../components/Navbar.js"), {
   ssr: false,
 });
 export default function Contact() {
   return (
-     <main className=" h-[100vh] bg-red-100  p-12 flex flex-col ">
+     <main className=" h-[100vh] bg-red-100  p-12 flex flex-col z-0">
          <DynamicNavbar />
 
       <div>
