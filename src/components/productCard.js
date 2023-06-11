@@ -12,7 +12,7 @@ const ProductCard = ({ productName }) => {
       target="_blank"
       className=""
     >
-      <div className="relative w-64 p-4 overflow-hidden bg-white shadow-lg rounded-2xl">
+      <div className="relative w-80 p-4 overflow-hidden bg-white shadow-lg rounded-2xl">
         <Image
           src="/image1.jpg"
           alt="moto"
