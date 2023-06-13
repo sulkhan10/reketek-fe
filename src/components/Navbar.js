@@ -10,7 +10,7 @@ const Navbar = () => {
 
   return (
     <div
-      className={`bg-gray-950 flex h-12 fixed top-2 left-2 right-2 justify-between px-12 items-center shadow-xl z-50  ${
+      className={`bg-zinc-950 flex h-12 fixed top-2 left-2 right-2 justify-between px-12 items-center shadow-xl z-50 text-gray-300 ${
         isMenuOpen ? "rounded-t-xl " : "rounded-xl drop-shadow-[5px_5px_5px_rgba(255,255,255,0.20)]"
       }`}
     >

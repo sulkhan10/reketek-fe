@@ -8,7 +8,7 @@ const DynamicNavbar = dynamic(() => import("@/components/Navbar"), {
 });
 export default function Home() {
   return (
-    <main className="  bg-red-100   flex flex-col ">
+    <main className="  bg-gray-200   flex flex-col ">
       <DynamicNavbar />
 
       <section
@@ -61,7 +61,7 @@ export default function Home() {
       <div className="px-4 py-16 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-20">
       <div className="max-w-xl mb-10 md:mx-auto sm:text-center lg:max-w-2xl md:mb-12">
         <div>
-          <p className="inline-block px-3 py-px mb-4 text-xs font-semibold tracking-wider text-teal-900 uppercase rounded-full bg-teal-accent-400">
+          <p className="inline-block px-3 py-px mb-4 text-xs font-semibold tracking-wider text-gray-700 uppercase rounded-full bg-blue-400">
             Brand new
           </p>
         </div>
@@ -70,7 +70,7 @@ export default function Home() {
             <svg
               viewBox="0 0 52 24"
               fill="currentColor"
-              className="absolute top-0 left-0 z-0 hidden w-32 -mt-8 -ml-20 text-blue-gray-100 lg:w-32 lg:-ml-28 lg:-mt-10 sm:block"
+              className="absolute top-0 left-0 z-0 hidden w-32 -mt-8 -ml-20 text-gray-700 lg:w-32 lg:-ml-28 lg:-mt-10 sm:block"
             >
               <defs>
                 <pattern
@@ -93,7 +93,7 @@ export default function Home() {
           </span>{' '}
           quick, brown fox jumps over a lazy dog
         </h2>
-        <p className="text-base text-gray-700 md:text-lg">
+        <p className="text-base text-gray-900 md:text-lg">
           Sed ut perspiciatis unde omnis iste natus error sit voluptatem
           accusantium doloremque rem aperiam, eaque ipsa quae.
         </p>
@@ -118,29 +118,29 @@ export default function Home() {
         </div>
         <div className="flex flex-col justify-center">
           <div className="pb-4 mb-4 border-b">
-            <h6 className="mb-2 font-semibold leading-5">
+            <h6 className="mb-2 font-semibold leading-5 text-gray-900">
               Sit error voluptatem accusantium
             </h6>
-            <p className="text-sm text-gray-900">
+            <p className="text-sm text-gray-700">
               Sportacus andrew weatherall goose Refined gentlemen super mario
               des lynam alpha trion zap rowsdower, omar sharif old.
             </p>
           </div>
           <div className="pb-4 mb-4 border-b">
-            <h6 className="mb-2 font-semibold leading-5">
+          <h6 className="mb-2 font-semibold leading-5 text-gray-900">
               Cheese on toast airedale the big cheese
             </h6>
-            <p className="text-sm text-gray-900">
+            <p className="text-sm text-gray-700">
               Chase ball of string eat plants, meow, and throw up because I ate
               plants going to catch the red dot today going to catch the red dot
               today. I could pee on this if I had the energy.
             </p>
           </div>
           <div>
-            <h6 className="mb-2 font-semibold leading-5">
+          <h6 className="mb-2 font-semibold leading-5 text-gray-900">
               A flower in my garden, a mystery
             </h6>
-            <p className="text-sm text-gray-900">
+            <p className="text-sm text-gray-700">
               Sed ut perspiciatis unde omnis iste natus error sit voluptatem
               accusantium doloremque laudantium, totam rem aperiam, eaque ipsa
               quae doloremque laudantium.
