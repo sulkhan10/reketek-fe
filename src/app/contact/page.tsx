@@ -82,6 +82,7 @@ export default function Contact() {
      </div>   
      </main>
      <Footer/>
+     <Footer/>
     </div>
 
   );
