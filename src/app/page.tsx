@@ -12,7 +12,7 @@ export default function Home() {
       <DynamicNavbar />
 
       <section
-        className="relative bg-contain bg-center bg-no-repeat h-full"
+        className="relative bg-contain bg-center bg-no-repeat h-screen"
         style={{
           backgroundImage:
             "url('https://images.pexels.com/photos/8807482/pexels-photo-8807482.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2')",
