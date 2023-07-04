@@ -32,6 +32,9 @@ export default function About() {
                 <span className="relative inline-block text-gray-700">
                   a lazy dog
                 </span>
+                <span className="relative inline-block text-gray-700">
+                  a lazy dog
+                </span>
               </span>
             </h2>
             <p className="text-base text-gray-700 md:text-lg">
