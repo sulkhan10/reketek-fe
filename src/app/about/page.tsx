@@ -31,7 +31,6 @@ export default function About() {
                 <div className="absolute inset-x-0 bottom-0 h-3 transform -skew-x-12 bg-blue-400" />
                 <span className="relative inline-block text-gray-700">
                   a lazy dog
-                  a lazy dog
                 </span>
             
               </span>
